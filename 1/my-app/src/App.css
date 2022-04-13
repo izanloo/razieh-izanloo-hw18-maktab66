@@ -1,0 +1,80 @@
+body{
+  background-color: #c1bdba !important;
+  font-family: yekan !important;
+}
+.form{
+  background-color: #25333c;
+  direction: rtl;
+}
+a{
+  color: #1ab088 !important;
+  font-size: 12px !important;
+  text-decoration: none !important; 
+}
+.log{
+  background-color: #1ab088 !important;
+}
+input,select{
+  background-color:#25333c;
+  color: #b5c2ce !important;
+  border: 1px solid gray;
+}
+
+.show-pass {
+  position: absolute;
+  top: 307px;
+  color: gray;
+  right: 34% important;
+}
+i:hover {
+    cursor: pointer;
+}
+
+.tabitem{
+  background-color: #1ab088;
+  width: 100%;
+}
+.tabitem:hover{
+  cursor: pointer;
+}
+.tab-noActive {
+  background-color: #73808b;
+}
+.error{
+  color:red;
+}
+.App {
+  text-align: center;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
